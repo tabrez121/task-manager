@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# 📝 Task Manager – React Project  
+A modern, beautiful, and fully responsive **Task Manager Application** built using **React**, **Context API**, **Custom Hooks**, and **@hello-pangea/dnd** for drag-and-drop functionality.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project covers all required assignment features and includes additional enhancements such as toast notifications, animations, task selection, and theme toggling.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### ✅ **Basic Functionality**
+- ➕ **Add Tasks** (with input validation)
+- ✔️ **Mark Tasks as Completed** (checkbox UI)
+- 🗑 **Delete Tasks** (with animation)
+- 🔍 **Filter Tasks**  
+  - **All**
+  - **Completed**
+  - **Pending**
+- 💾 **Persistent Storage** using Local Storage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚛️ **React Concepts Implemented**
 
-### `npm test`
+### 🔧 **Custom Hook – `useLocalStorage()`**
+A fully reusable hook for:
+- Saving tasks to localStorage  
+- Restoring tasks on refresh  
+- Auto-sync with state
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧠 **Context API**
+Manages global state for:
+- Tasks  
+- Filters  
+- Selection  
+- Drag-and-drop order  
+- All CRUD operations  
 
-### `npm run build`
+No prop-drilling!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚡ **Performance Optimization**
+- `React.memo` → Prevents unnecessary re-renders  
+- `useCallback` → Optimizes event handlers  
+- `useMemo` → Optimizes computed filtered tasks  
+- Context partitioning → Efficient updates  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 **UI & CSS Features**
 
-### `npm run eject`
+### ☀️🌙 **Dark Mode / Light Mode**
+- Theme toggle button  
+- Colors handled with CSS variables  
+- Fully responsive to theme changes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✨ **Animations**
+Includes smooth, modern animations for:
+- Task adding  
+- Task removing  
+- Hover elevation  
+- Dragging shadow + rotation  
+- Empty state fade animation  
+- Selected task highlight  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📱 **Responsive Design**
+- Mobile-first  
+- Fully responsive task layout  
+- Touch-friendly drag-and-drop  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧲 **Drag and Drop – @hello-pangea/dnd**
+- Drag tasks to reorder  
+- Smooth animation  
+- Stable React 19 compatibility  
+- Works with filters & context  
+- Styled drag shadow + scale effect  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔔 **Toast Notifications**
+Using **react-toastify**:
+- Task added  
+- Task deleted  
+- Task completed  
+- Task selected  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🖼 **Task Selection Feature**
+- Click task → highlights it  
+- Selected style works in both themes  
+- Does not interfere with completed tasks  
+- Great UX improvement  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📂 **Project Structure**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+src/
+│── components/
+│ ├── TaskInput.jsx
+│ ├── TaskList.jsx
+│ ├── TaskItem.jsx
+│ ├── SortableTask.jsx (if used)
+│
+│── context/
+│ └── TaskContext.jsx
+│
+│── hooks/
+│ └── useLocalStorage.js
+│
+│── styles/
+│ ├── tasks.css
+│ ├── theme.css
+│
+│── App.js
+│── index.js
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🛠️ **Technologies Used**
+- **React 19**
+- **Context API**
+- **Custom Hooks**
+- **@hello-pangea/dnd** (Drag and Drop)
+- **React Toastify**
+- **CSS3 Animations**
+- **Local Storage API**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📦 **Installation & Setup**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install
+npm start
