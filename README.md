@@ -7,26 +7,26 @@ This project covers all required assignment features and includes additional enh
 
 # 📸 Screenshots
 ### 🏠 Home Screen (Light Mode)
-(<img width="928" height="345" alt="Homepage light" src="https://github.com/user-attachments/assets/1b82c219-9ef9-44dd-84eb-ba835315db2f" />
-)
+<img width="928" height="345" alt="Homepage light" src="https://github.com/user-attachments/assets/1b82c219-9ef9-44dd-84eb-ba835315db2f" />
+
 
 ### 🌙 Home Screen (Dark Mode)
-(<img width="866" height="359" alt="homepage dark" src="https://github.com/user-attachments/assets/25b89eda-2bb3-440f-a06f-566ae24e971f" />
-)
+<img width="866" height="359" alt="homepage dark" src="https://github.com/user-attachments/assets/25b89eda-2bb3-440f-a06f-566ae24e971f" />
+
 
 ### 📝 Adding Tasks
-(<img width="854" height="362" alt="add task" src="https://github.com/user-attachments/assets/d8ac2dc0-c65e-4025-98d4-a23d764be2c7" />
-)
+<img width="854" height="362" alt="add task" src="https://github.com/user-attachments/assets/d8ac2dc0-c65e-4025-98d4-a23d764be2c7" />
+
 
 ### ✔️ Completed Task View  
-(<img width="800" height="349" alt="select task" src="https://github.com/user-attachments/assets/df098969-cd4f-46df-bf1e-ce12bfc51195" />
-)
+<img width="800" height="349" alt="select task" src="https://github.com/user-attachments/assets/df098969-cd4f-46df-bf1e-ce12bfc51195" />
+
 
 ### 🔍 Filter Options – All / Completed / Pending
-(<img width="665" height="316" alt="complete filter task" src="https://github.com/user-attachments/assets/6f43297b-ef39-4057-a631-96feab4e3d81" />
-)
-(<img width="679" height="265" alt="pending filter task" src="https://github.com/user-attachments/assets/2c59b4a8-8371-4e89-9b08-26c6b72fccf1" />
-)
+<img width="665" height="316" alt="complete filter task" src="https://github.com/user-attachments/assets/6f43297b-ef39-4057-a631-96feab4e3d81" />
+
+<img width="679" height="265" alt="pending filter task" src="https://github.com/user-attachments/assets/2c59b4a8-8371-4e89-9b08-26c6b72fccf1" />
+
 
 ### ↕️ Drag & Drop Reordering (Hello Pangea DnD)
 <img width="638" height="284" alt="drag" src="https://github.com/user-attachments/assets/10791b1c-7b5a-4ac0-931f-bc87184cfa33" />
