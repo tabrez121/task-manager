@@ -117,7 +117,7 @@ Includes smooth, modern animations for:
 - Works with filters & context  
 - Styled drag shadow + scale effect  
 
----
+----
 
 ## 🔔 **Toast Notifications**
 Using **react-toastify**:
