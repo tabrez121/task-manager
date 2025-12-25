@@ -247,6 +247,7 @@ body[data-theme="dark"] .task-item.selected {
   }
 }
 
+
 body[data-theme="dark"] .empty {
   color: #e5e7eb;
 }

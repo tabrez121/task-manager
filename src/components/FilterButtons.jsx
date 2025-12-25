@@ -13,6 +13,7 @@ const FilterButtons = () => {
 
   return (
     <div className="filters" role="tablist" aria-label="Task filters">
+      
       <button className={filter === "all" ? "active" : ""} onClick={set("all")}>
         All
       </button>

@@ -13,6 +13,7 @@ const TaskItem = ({ task, provided }) => {
   const [isRemoving, setIsRemoving] = useState(false);
 
   useEffect(() => {
+    
     let timeout;
     if (isRemoving) {
       timeout = setTimeout(() => deleteTask(task.id), 300);

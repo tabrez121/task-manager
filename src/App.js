@@ -1,32 +1,3 @@
-// import TaskInput from "./components/TaskInput";
-// import TaskList from "./components/TaskList";
-// import FilterButtons from "./components/FilterButtons";
-// import ThemeToggle from "./components/ThemeToggle";
-// import { TaskProvider } from "./context/TaskContext";
-
-// import "./styles/theme.css";
-// import "./styles/app.css";
-// import "./styles/tasks.css";
-
-// const App = () => {
-//   return (
-//     <TaskProvider>
-//       <ThemeToggle />
-
-//       <div className="app">
-//         <h1>Task Manager</h1>
-
-//         <TaskInput />
-//         <FilterButtons />
-//         <TaskList />
-//       </div>
-//     </TaskProvider>
-//   );
-// };
-
-// export default App;
-
-
 import React from "react";
 import { TaskProvider } from "./context/TaskContext";
 import TaskInput from "./components/TaskInput";

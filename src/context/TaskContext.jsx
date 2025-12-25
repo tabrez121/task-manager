@@ -7,7 +7,7 @@ const TaskContext = createContext();
 
 export const TaskProvider = ({ children }) => {
   const [tasks, setTasks] = useLocalStorage("tasks", []);
-  const [filter, setFilter] = useState("all"); // all | completed | pending
+  const [filter, setFilter] = useState("all");  // all | completed | pending
   const [selectedTaskId, setSelectedTaskId] = useState(null);
 
 
